@@ -1,20 +1,32 @@
 {
   "name": "find-newer-docker-image",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Find newer images on the Docker Hub for a given tag",
   "main": "index.js",
+  "bin": {
+    "find-newer-docker-image": "bin/find-newer-docker-image"
+  },
   "scripts": {
     "test": "mocha --watch .",
     "debugtest": "mocha --inspect-brk"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliversturm/find-newer-docker-image.git"
+  },
+  "keywords": [
+    "docker",
+    "image",
+    "find"
+  ],
+  "author": "Oli Sturm <oliver@oliversturm.com>",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "compare-ver": "^2.0.2",
     "xregexp": "^4.2.0"
   }
