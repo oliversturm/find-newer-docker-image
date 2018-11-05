@@ -20,6 +20,10 @@
     "find"
   ],
   "author": "Oli Sturm <oliver@oliversturm.com>",
+  "homepage": "https://github.com/oliversturm/find-newer-docker-image#readme",
+  "bugs": {
+    "url": "https://github.com/oliversturm/find-newer-docker-image/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
