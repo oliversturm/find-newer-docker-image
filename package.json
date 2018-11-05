@@ -1,6 +1,6 @@
 {
   "name": "find-newer-docker-image",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find newer images on the Docker Hub for a given tag",
   "main": "index.js",
   "bin": {
